@@ -34,7 +34,7 @@ for filename in os.listdir(folder_path):
             ido2=str(ido)
             keido3="経度"+keido2
             ido3="緯度"+ido2
-
+            value=streamlit_image_coordinates("いじる用/20250415_165815.jpg")
             st.write(keido3)
             st.write(ido3)
             print(t)
