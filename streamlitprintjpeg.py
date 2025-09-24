@@ -27,8 +27,7 @@ import os
 #     page_title="佐鳴湖のごみの写真",
 #     layout="wide",
 # )
-# y=0
-# z=jpg_files[y]
+
 
 
 folder_path = "いじる用"
@@ -37,6 +36,8 @@ folder_path = "いじる用"
 jpg_files = glob.glob(os.path.join(folder_path, "*.jpg"))
 
 count=len(jpg_files)
+y=0
+z=jpg_files[y]
 
 for y in range(count):
         img = Image.open(z)
