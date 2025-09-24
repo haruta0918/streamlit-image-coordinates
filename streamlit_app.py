@@ -47,10 +47,9 @@ with col3:
             "kitty.jpeg",
             width=250,
             key="local2",
+            
         )
-
         st.write(value)
-
 with col4:
     st.write("## PIL example")
 
