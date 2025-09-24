@@ -43,4 +43,4 @@ for y in range(count):
         img = Image.open(z)
         st.image(img)
         z=jpg_files[y]
-        print(z)
+
