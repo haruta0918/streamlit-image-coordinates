@@ -49,7 +49,8 @@ for y in range(count):
         img = Image.open(z)
         st.image(img)
         z=jpg_files[y]
-import streamlit as st
-from PIL import Image
+#         st.write
+# import streamlit as st
+# from PIL import Image
 
 
