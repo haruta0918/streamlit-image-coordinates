@@ -25,7 +25,7 @@ import streamlit as st
 import streamlit as st
 
 file_id = "11HEtRxLGCxqLWsO2vEW22kMLSw4byOkP"
-image_url = f"https://drive.google.com/uc?export=view&id={file_id}"
+image_url = f"https://drive.google.com/file/d/11HEtRxLGCxqLWsO2vEW22kMLSw4byOkP/view={file_id}"
 
 st.image(image_url, caption="Google Driveから表示", use_column_width=True)
 
