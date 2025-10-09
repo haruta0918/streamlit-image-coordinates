@@ -23,12 +23,15 @@ from PIL import Image
 import streamlit as st
 
 import streamlit as st
-
+import requests
+# iamge ID
 file_id = "11HEtRxLGCxqLWsO2vEW22kMLSw4byOkP"
-image_url = f"https://drive.google.com/file/d/11HEtRxLGCxqLWsO2vEW22kMLSw4byOkP/view={file_id}"
 
-st.image(image_url, caption="Google Driveから表示", use_column_width=True)
+# URL
+url = f"https://drive.google.com/uc?export=view&id={file_id}"
 
+response = requests.get(url)
+st.image(response.content)
 # folder_path = "実験中"
 # 
 
