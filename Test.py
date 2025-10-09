@@ -22,8 +22,10 @@ import streamlit as st
 from PIL import Image
 import streamlit as st
 
-file_id = "11HEtRxLGCxqLWsO2vEW22kMLSw4byOkP"  # あなたの画像IDに置き換えて
-image_url = f"https://drive.google.com/file/d/11HEtRxLGCxqLWsO2vEW22kMLSw4byOkP/view?usp=drive_link={file_id}"
+import streamlit as st
+
+file_id = "11HEtRxLGCxqLWsO2vEW22kMLSw4byOkP"
+image_url = f"https://drive.google.com/uc?export=view&id={file_id}"
 
 st.image(image_url, caption="Google Driveから表示", use_column_width=True)
 
